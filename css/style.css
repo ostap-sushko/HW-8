@@ -1,3 +1,6 @@
+h3:first-child{
+    color: pink;
+}
 #greycol{
     color: gray;
 }
@@ -9,4 +12,51 @@ div + h3 + p{
 }
 .yellow{
     color: yellow;
+}
+
+
+.link{
+    color: hotpink;
+}
+
+
+.link:hover{
+    color: aqua;
+}
+
+
+.link:focus{
+    color: red;
+}
+
+
+.link:active{
+    color: chartreuse;
+}
+
+
+.item:nth-child(4){
+background-color: black;
+}
+
+
+.item:nth-child(even){
+    font-size: 17px;
+}
+
+
+.item:nth-child(odd)>.link{
+    font-size: 21px;
+    font-style: italic;
+    color: burlywood;
+}
+
+
+.item:nth-child(n+8){
+    background-color: coral;
+}
+
+
+.item:first-child>.link{
+    font-size: 111px;
 }
